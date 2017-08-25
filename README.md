@@ -2,6 +2,7 @@
 
 
 
+
 ## Run the project
 #### Run class AppUniversal.java
 #### If property is_xml=true is passed then hibernate with xml based configuration will run <br> otherwise annotation based configuration will run
