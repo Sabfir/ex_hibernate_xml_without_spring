@@ -4,6 +4,8 @@ import org.hsqldb.util.DatabaseManagerSwing;
 
 public class StartHsqlDbManager {
 
+    @post
+
     public static void startDBManager() {
         DatabaseManagerSwing.main(
                 new String[]{"--url", "jdbc:hsqldb:mem:testdb", "--user", "sa", "--password", "sa"});
